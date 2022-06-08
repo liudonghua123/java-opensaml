@@ -1,0 +1,1 @@
+urn\:mace\:shibboleth\:2.0\:security            = org.opensaml.spring.SecurityNamespaceHandler

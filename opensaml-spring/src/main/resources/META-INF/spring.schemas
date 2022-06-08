@@ -1,0 +1,5 @@
+# Modern variant
+http\://shibboleth.net/schema/idp/shibboleth-security.xsd = schema/shibboleth-security.xsd
+
+# Legacy variant
+classpath\:/schema/shibboleth-2.0-security.xsd = schema/shibboleth-security.xsd

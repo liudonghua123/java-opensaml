@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:util="http://www.springframework.org/schema/util"
+	xmlns:c="http://www.springframework.org/schema/c" xmlns:p="http://www.springframework.org/schema/p"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+                            http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd
+                            http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util.xsd"
+	default-init-method="initialize" default-destroy-method="destroy">
+
+    <bean id="staticKeySingle"
+        class="org.opensaml.spring.trust.StaticExplicitKeyFactoryBean"
+        p:publicKeys="classpath:/org/opensaml/spring/credential/publicKey.pem" />
+
+    <bean id="staticX509Single"
+        class="org.opensaml.spring.trust.StaticExplicitKeyFactoryBean"
+        p:certificates="classpath:/org/opensaml/spring/credential/cert.pem" />
+
+    <bean id="staticX509Multiple"
+        class="org.opensaml.spring.trust.StaticExplicitKeyFactoryBean"
+        p:certificates="classpath:/org/opensaml/spring/credential/certificate.pem" />
+
+    <bean id="staticMixed"
+        class="org.opensaml.spring.trust.StaticExplicitKeyFactoryBean"
+        p:publicKeys="classpath:/org/opensaml/spring/credential/publicKey.pem"
+        p:certificates="classpath:/org/opensaml/spring/credential/cert.pem" />
+
+</beans>
