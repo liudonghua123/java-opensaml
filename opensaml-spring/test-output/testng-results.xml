@@ -1,532 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="14" total="57" passed="43" failed="0" skipped="0">
+<testng-results ignored="1" total="9" passed="8" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-06-08T10:36:14 EDT" name="Default suite" finished-at="2022-06-08T10:36:17 EDT" duration-ms="2631">
+  <suite started-at="2022-07-01T14:26:55 EDT" name="Default suite" finished-at="2022-07-01T14:26:56 EDT" duration-ms="1329">
     <groups>
     </groups>
-    <test started-at="2022-06-08T10:36:14 EDT" name="Default test" finished-at="2022-06-08T10:36:17 EDT" duration-ms="2631">
-      <class name="org.opensaml.spring.credential.BasicResourceParserTest">
-        <test-method is-config="true" signature="setupDirs()[pri:0, instance:org.opensaml.spring.credential.BasicResourceParserTest@3d1cfad4]" started-at="2022-06-08T10:36:14 EDT" name="setupDirs" finished-at="2022-06-08T10:36:14 EDT" duration-ms="23" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setupDirs -->
-        <test-method signature="publicOnly()[pri:0, instance:org.opensaml.spring.credential.BasicResourceParserTest@3d1cfad4]" started-at="2022-06-08T10:36:14 EDT" name="publicOnly" finished-at="2022-06-08T10:36:15 EDT" duration-ms="639" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- publicOnly -->
-        <test-method is-config="true" signature="tearDownTestContext()[pri:0, instance:org.opensaml.spring.credential.BasicResourceParserTest@3d1cfad4]" started-at="2022-06-08T10:36:15 EDT" name="tearDownTestContext" finished-at="2022-06-08T10:36:15 EDT" duration-ms="8" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDownTestContext -->
-        <test-method signature="publicPrivate()[pri:0, instance:org.opensaml.spring.credential.BasicResourceParserTest@3d1cfad4]" started-at="2022-06-08T10:36:15 EDT" name="publicPrivate" finished-at="2022-06-08T10:36:15 EDT" duration-ms="113" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- publicPrivate -->
-        <test-method is-config="true" signature="tearDownTestContext()[pri:0, instance:org.opensaml.spring.credential.BasicResourceParserTest@3d1cfad4]" started-at="2022-06-08T10:36:15 EDT" name="tearDownTestContext" finished-at="2022-06-08T10:36:15 EDT" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDownTestContext -->
-        <test-method signature="secretBase64()[pri:0, instance:org.opensaml.spring.credential.BasicResourceParserTest@3d1cfad4]" started-at="2022-06-08T10:36:15 EDT" name="secretBase64" finished-at="2022-06-08T10:36:15 EDT" duration-ms="48" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- secretBase64 -->
-        <test-method is-config="true" signature="tearDownTestContext()[pri:0, instance:org.opensaml.spring.credential.BasicResourceParserTest@3d1cfad4]" started-at="2022-06-08T10:36:15 EDT" name="tearDownTestContext" finished-at="2022-06-08T10:36:15 EDT" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDownTestContext -->
-        <test-method signature="secretBinary()[pri:0, instance:org.opensaml.spring.credential.BasicResourceParserTest@3d1cfad4]" started-at="2022-06-08T10:36:15 EDT" name="secretBinary" finished-at="2022-06-08T10:36:15 EDT" duration-ms="57" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- secretBinary -->
-        <test-method is-config="true" signature="tearDownTestContext()[pri:0, instance:org.opensaml.spring.credential.BasicResourceParserTest@3d1cfad4]" started-at="2022-06-08T10:36:15 EDT" name="tearDownTestContext" finished-at="2022-06-08T10:36:15 EDT" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDownTestContext -->
-        <test-method signature="secretHex()[pri:0, instance:org.opensaml.spring.credential.BasicResourceParserTest@3d1cfad4]" started-at="2022-06-08T10:36:15 EDT" name="secretHex" finished-at="2022-06-08T10:36:15 EDT" duration-ms="28" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- secretHex -->
-        <test-method is-config="true" signature="tearDownTestContext()[pri:0, instance:org.opensaml.spring.credential.BasicResourceParserTest@3d1cfad4]" started-at="2022-06-08T10:36:15 EDT" name="tearDownTestContext" finished-at="2022-06-08T10:36:15 EDT" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDownTestContext -->
-        <test-method signature="wrongCert()[pri:0, instance:org.opensaml.spring.credential.BasicResourceParserTest@3d1cfad4]" started-at="2022-06-08T10:36:15 EDT" name="wrongCert" finished-at="2022-06-08T10:36:15 EDT" duration-ms="68" status="PASS">
-          <exception class="org.springframework.beans.factory.BeanCreationException">
-            <message>
-              <![CDATA[Error creating bean with name 'IdPCredential': Invocation of init method failed; nested exception is org.opensaml.security.SecurityException: Error during signature verification]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'IdPCredential': Invocation of init method failed; nested exception is org.opensaml.security.SecurityException: Error during signature verification
-at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1755)
-at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:604)
-at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:526)
-at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326)
-at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
-at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)
-at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:225)
-at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveNamedBean(DefaultListableBeanFactory.java:1265)
-at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveNamedBean(DefaultListableBeanFactory.java:1226)
-at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveBean(DefaultListableBeanFactory.java:483)
-at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBean(DefaultListableBeanFactory.java:338)
-at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBean(DefaultListableBeanFactory.java:331)
-at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1159)
-at org.opensaml.spring.AbstractSecurityParserTest.getBean(AbstractSecurityParserTest.java:95)
-at org.opensaml.spring.AbstractSecurityParserTest.getBean(AbstractSecurityParserTest.java:68)
-at org.opensaml.spring.credential.BasicResourceParserTest.wrongCert(BasicResourceParserTest.java:46)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:808)
-at org.testng.TestRunner.run(TestRunner.java:603)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
-at org.testng.SuiteRunner.run(SuiteRunner.java:326)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
-at org.testng.TestNG.runSuites(TestNG.java:1092)
-at org.testng.TestNG.run(TestNG.java:1060)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-Caused by: org.opensaml.security.SecurityException: Error during signature verification
-at org.opensaml.security.crypto.SigningUtil.verify(SigningUtil.java:219)
-at org.opensaml.security.crypto.KeySupport.matchKeyPair(KeySupport.java:613)
-at org.opensaml.spring.credential.AbstractBasicCredentialFactoryBean.doCreateInstance(AbstractBasicCredentialFactoryBean.java:125)
-at org.opensaml.spring.credential.AbstractBasicCredentialFactoryBean.doCreateInstance(AbstractBasicCredentialFactoryBean.java:1)
-at net.shibboleth.ext.spring.factory.AbstractComponentAwareFactoryBean.createInstance(AbstractComponentAwareFactoryBean.java:49)
-at org.springframework.beans.factory.config.AbstractFactoryBean.afterPropertiesSet(AbstractFactoryBean.java:142)
-at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1802)
-at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1751)
-... 43 more
-Caused by: java.security.SignatureException: Signature length not correct: got 256 but was expecting 128
-at java.base/sun.security.rsa.RSASignature.engineVerify(RSASignature.java:213)
-at java.base/java.security.Signature$Delegate.engineVerify(Signature.java:1435)
-at java.base/java.security.Signature.verify(Signature.java:789)
-at org.opensaml.security.crypto.SigningUtil.verify(SigningUtil.java:216)
-... 50 more
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.springframework.beans.factory.BeanCreationException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- wrongCert -->
-        <test-method is-config="true" signature="tearDownTestContext()[pri:0, instance:org.opensaml.spring.credential.BasicResourceParserTest@3d1cfad4]" started-at="2022-06-08T10:36:15 EDT" name="tearDownTestContext" finished-at="2022-06-08T10:36:15 EDT" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDownTestContext -->
-      </class> <!-- org.opensaml.spring.credential.BasicResourceParserTest -->
-      <class name="org.opensaml.spring.trust.StaticExplicitKeyFactoryBeanTest">
-        <test-method signature="mixed()[pri:0, instance:org.opensaml.spring.trust.StaticExplicitKeyFactoryBeanTest@11bd0f3b]" started-at="2022-06-08T10:36:15 EDT" name="mixed" finished-at="2022-06-08T10:36:15 EDT" duration-ms="124" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- mixed -->
-        <test-method is-config="true" signature="tearDownTestContext()[pri:0, instance:org.opensaml.spring.trust.StaticExplicitKeyFactoryBeanTest@11bd0f3b]" started-at="2022-06-08T10:36:15 EDT" name="tearDownTestContext" finished-at="2022-06-08T10:36:15 EDT" duration-ms="3" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDownTestContext -->
-        <test-method signature="multipleCert()[pri:0, instance:org.opensaml.spring.trust.StaticExplicitKeyFactoryBeanTest@11bd0f3b]" started-at="2022-06-08T10:36:15 EDT" name="multipleCert" finished-at="2022-06-08T10:36:15 EDT" duration-ms="51" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- multipleCert -->
-        <test-method is-config="true" signature="tearDownTestContext()[pri:0, instance:org.opensaml.spring.trust.StaticExplicitKeyFactoryBeanTest@11bd0f3b]" started-at="2022-06-08T10:36:15 EDT" name="tearDownTestContext" finished-at="2022-06-08T10:36:15 EDT" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDownTestContext -->
-        <test-method signature="singleCert()[pri:0, instance:org.opensaml.spring.trust.StaticExplicitKeyFactoryBeanTest@11bd0f3b]" started-at="2022-06-08T10:36:15 EDT" name="singleCert" finished-at="2022-06-08T10:36:15 EDT" duration-ms="62" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- singleCert -->
-        <test-method signature="singleKey()[pri:0, instance:org.opensaml.spring.trust.StaticExplicitKeyFactoryBeanTest@11bd0f3b]" started-at="2022-06-08T10:36:15 EDT" name="singleKey" finished-at="2022-06-08T10:36:15 EDT" duration-ms="55" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- singleKey -->
-        <test-method is-config="true" signature="tearDownTestContext()[pri:0, instance:org.opensaml.spring.trust.StaticExplicitKeyFactoryBeanTest@11bd0f3b]" started-at="2022-06-08T10:36:15 EDT" name="tearDownTestContext" finished-at="2022-06-08T10:36:15 EDT" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDownTestContext -->
-        <test-method is-config="true" signature="tearDownTestContext()[pri:0, instance:org.opensaml.spring.trust.StaticExplicitKeyFactoryBeanTest@11bd0f3b]" started-at="2022-06-08T10:36:15 EDT" name="tearDownTestContext" finished-at="2022-06-08T10:36:15 EDT" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDownTestContext -->
-      </class> <!-- org.opensaml.spring.trust.StaticExplicitKeyFactoryBeanTest -->
-      <class name="org.opensaml.spring.trust.StaticExplicitKeyParserTest">
-        <test-method signature="simple()[pri:0, instance:org.opensaml.spring.trust.StaticExplicitKeyParserTest@c333c60]" started-at="2022-06-08T10:36:15 EDT" name="simple" finished-at="2022-06-08T10:36:15 EDT" duration-ms="65" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- simple -->
-        <test-method is-config="true" signature="tearDownTestContext()[pri:0, instance:org.opensaml.spring.trust.StaticExplicitKeyParserTest@c333c60]" started-at="2022-06-08T10:36:15 EDT" name="tearDownTestContext" finished-at="2022-06-08T10:36:15 EDT" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDownTestContext -->
-      </class> <!-- org.opensaml.spring.trust.StaticExplicitKeyParserTest -->
-      <class name="org.opensaml.spring.trust.StaticExplicitKeySignatureParserTest">
-        <test-method signature="simple()[pri:0, instance:org.opensaml.spring.trust.StaticExplicitKeySignatureParserTest@79da8dc5]" started-at="2022-06-08T10:36:15 EDT" name="simple" finished-at="2022-06-08T10:36:15 EDT" duration-ms="44" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- simple -->
-        <test-method is-config="true" signature="tearDownTestContext()[pri:0, instance:org.opensaml.spring.trust.StaticExplicitKeySignatureParserTest@79da8dc5]" started-at="2022-06-08T10:36:15 EDT" name="tearDownTestContext" finished-at="2022-06-08T10:36:15 EDT" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDownTestContext -->
-      </class> <!-- org.opensaml.spring.trust.StaticExplicitKeySignatureParserTest -->
-      <class name="org.opensaml.spring.trust.PKIXValidationOptionsParserTest">
-        <test-method signature="complex()[pri:0, instance:org.opensaml.spring.trust.PKIXValidationOptionsParserTest@1eb5174b]" started-at="2022-06-08T10:36:15 EDT" name="complex" finished-at="2022-06-08T10:36:15 EDT" duration-ms="29" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- complex -->
-        <test-method is-config="true" signature="tearDownTestContext()[pri:0, instance:org.opensaml.spring.trust.PKIXValidationOptionsParserTest@1eb5174b]" started-at="2022-06-08T10:36:15 EDT" name="tearDownTestContext" finished-at="2022-06-08T10:36:15 EDT" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDownTestContext -->
-        <test-method signature="simple()[pri:0, instance:org.opensaml.spring.trust.PKIXValidationOptionsParserTest@1eb5174b]" started-at="2022-06-08T10:36:15 EDT" name="simple" finished-at="2022-06-08T10:36:15 EDT" duration-ms="19" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- simple -->
-        <test-method is-config="true" signature="tearDownTestContext()[pri:0, instance:org.opensaml.spring.trust.PKIXValidationOptionsParserTest@1eb5174b]" started-at="2022-06-08T10:36:15 EDT" name="tearDownTestContext" finished-at="2022-06-08T10:36:15 EDT" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDownTestContext -->
-      </class> <!-- org.opensaml.spring.trust.PKIXValidationOptionsParserTest -->
-      <class name="org.opensaml.spring.trust.PKIXFilesystemParserTest">
-        <test-method signature="complex()[pri:0, instance:org.opensaml.spring.trust.PKIXFilesystemParserTest@67080771]" started-at="2022-06-08T10:36:15 EDT" name="complex" finished-at="2022-06-08T10:36:15 EDT" duration-ms="48" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- complex -->
-        <test-method is-config="true" signature="tearDownTestContext()[pri:0, instance:org.opensaml.spring.trust.PKIXFilesystemParserTest@67080771]" started-at="2022-06-08T10:36:15 EDT" name="tearDownTestContext" finished-at="2022-06-08T10:36:16 EDT" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDownTestContext -->
-        <test-method signature="simple()[pri:0, instance:org.opensaml.spring.trust.PKIXFilesystemParserTest@67080771]" started-at="2022-06-08T10:36:16 EDT" name="simple" finished-at="2022-06-08T10:36:16 EDT" duration-ms="22" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- simple -->
-        <test-method is-config="true" signature="tearDownTestContext()[pri:0, instance:org.opensaml.spring.trust.PKIXFilesystemParserTest@67080771]" started-at="2022-06-08T10:36:16 EDT" name="tearDownTestContext" finished-at="2022-06-08T10:36:16 EDT" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDownTestContext -->
-      </class> <!-- org.opensaml.spring.trust.PKIXFilesystemParserTest -->
-      <class name="org.opensaml.spring.credential.X509FilesystemParserTest">
-        <test-method signature="certElementsKeyNames()[pri:0, instance:org.opensaml.spring.credential.X509FilesystemParserTest@72cde7cc]" started-at="2022-06-08T10:36:16 EDT" name="certElementsKeyNames" finished-at="2022-06-08T10:36:16 EDT" duration-ms="28" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- certElementsKeyNames -->
-        <test-method is-config="true" signature="tearDownTestContext()[pri:0, instance:org.opensaml.spring.credential.X509FilesystemParserTest@72cde7cc]" started-at="2022-06-08T10:36:16 EDT" name="tearDownTestContext" finished-at="2022-06-08T10:36:16 EDT" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDownTestContext -->
-        <test-method signature="certKeyCrl()[pri:0, instance:org.opensaml.spring.credential.X509FilesystemParserTest@72cde7cc]" started-at="2022-06-08T10:36:16 EDT" name="certKeyCrl" finished-at="2022-06-08T10:36:16 EDT" duration-ms="45" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- certKeyCrl -->
-        <test-method signature="certOnly()[pri:0, instance:org.opensaml.spring.credential.X509FilesystemParserTest@72cde7cc]" started-at="2022-06-08T10:36:16 EDT" name="certOnly" finished-at="2022-06-08T10:36:16 EDT" duration-ms="13" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- certOnly -->
-        <test-method is-config="true" signature="tearDownTestContext()[pri:0, instance:org.opensaml.spring.credential.X509FilesystemParserTest@72cde7cc]" started-at="2022-06-08T10:36:16 EDT" name="tearDownTestContext" finished-at="2022-06-08T10:36:16 EDT" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDownTestContext -->
-        <test-method is-config="true" signature="tearDownTestContext()[pri:0, instance:org.opensaml.spring.credential.X509FilesystemParserTest@72cde7cc]" started-at="2022-06-08T10:36:16 EDT" name="tearDownTestContext" finished-at="2022-06-08T10:36:16 EDT" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDownTestContext -->
-        <test-method signature="twoCert()[pri:0, instance:org.opensaml.spring.credential.X509FilesystemParserTest@72cde7cc]" started-at="2022-06-08T10:36:16 EDT" name="twoCert" finished-at="2022-06-08T10:36:16 EDT" duration-ms="63" status="PASS">
-          <exception class="org.springframework.beans.factory.BeanCreationException">
-            <message>
-              <![CDATA[Error creating bean with name 'IdPCredential': Invocation of init method failed; nested exception is org.springframework.beans.FatalBeanException: Configuration element indicated an entityCertificate, but multiple certificates were decoded]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'IdPCredential': Invocation of init method failed; nested exception is org.springframework.beans.FatalBeanException: Configuration element indicated an entityCertificate, but multiple certificates were decoded
-at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1755)
-at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:604)
-at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:526)
-at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326)
-at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
-at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)
-at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:225)
-at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveNamedBean(DefaultListableBeanFactory.java:1265)
-at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveNamedBean(DefaultListableBeanFactory.java:1226)
-at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveBean(DefaultListableBeanFactory.java:483)
-at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBean(DefaultListableBeanFactory.java:338)
-at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBean(DefaultListableBeanFactory.java:331)
-at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1159)
-at org.opensaml.spring.AbstractSecurityParserTest.getBean(AbstractSecurityParserTest.java:95)
-at org.opensaml.spring.AbstractSecurityParserTest.getBean(AbstractSecurityParserTest.java:68)
-at org.opensaml.spring.credential.X509FilesystemParserTest.lookup(X509FilesystemParserTest.java:39)
-at org.opensaml.spring.credential.X509FilesystemParserTest.twoCert(X509FilesystemParserTest.java:53)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:808)
-at org.testng.TestRunner.run(TestRunner.java:603)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
-at org.testng.SuiteRunner.run(SuiteRunner.java:326)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
-at org.testng.TestNG.runSuites(TestNG.java:1092)
-at org.testng.TestNG.run(TestNG.java:1060)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-Caused by: org.springframework.beans.FatalBeanException: Configuration element indicated an entityCertificate, but multiple certificates were decoded
-at org.opensaml.spring.credential.BasicX509CredentialFactoryBean.getEntityCertificate(BasicX509CredentialFactoryBean.java:161)
-at org.opensaml.spring.credential.AbstractX509CredentialFactoryBean.doCreateInstance(AbstractX509CredentialFactoryBean.java:55)
-at org.opensaml.spring.credential.AbstractX509CredentialFactoryBean.doCreateInstance(AbstractX509CredentialFactoryBean.java:1)
-at net.shibboleth.ext.spring.factory.AbstractComponentAwareFactoryBean.createInstance(AbstractComponentAwareFactoryBean.java:49)
-at org.springframework.beans.factory.config.AbstractFactoryBean.afterPropertiesSet(AbstractFactoryBean.java:142)
-at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1802)
-at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1751)
-... 44 more
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.springframework.beans.factory.BeanCreationException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- twoCert -->
-        <test-method is-config="true" signature="tearDownTestContext()[pri:0, instance:org.opensaml.spring.credential.X509FilesystemParserTest@72cde7cc]" started-at="2022-06-08T10:36:16 EDT" name="tearDownTestContext" finished-at="2022-06-08T10:36:16 EDT" duration-ms="3" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDownTestContext -->
-        <test-method signature="wrongCert()[pri:0, instance:org.opensaml.spring.credential.X509FilesystemParserTest@72cde7cc]" started-at="2022-06-08T10:36:16 EDT" name="wrongCert" finished-at="2022-06-08T10:36:16 EDT" duration-ms="66" status="PASS">
-          <exception class="org.springframework.beans.factory.BeanCreationException">
-            <message>
-              <![CDATA[Error creating bean with name 'IdPCredential': Invocation of init method failed; nested exception is org.opensaml.security.SecurityException: Error during signature verification]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'IdPCredential': Invocation of init method failed; nested exception is org.opensaml.security.SecurityException: Error during signature verification
-at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1755)
-at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:604)
-at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:526)
-at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326)
-at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
-at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)
-at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:225)
-at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveNamedBean(DefaultListableBeanFactory.java:1265)
-at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveNamedBean(DefaultListableBeanFactory.java:1226)
-at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveBean(DefaultListableBeanFactory.java:483)
-at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBean(DefaultListableBeanFactory.java:338)
-at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBean(DefaultListableBeanFactory.java:331)
-at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1159)
-at org.opensaml.spring.AbstractSecurityParserTest.getBean(AbstractSecurityParserTest.java:95)
-at org.opensaml.spring.AbstractSecurityParserTest.getBean(AbstractSecurityParserTest.java:68)
-at org.opensaml.spring.credential.X509FilesystemParserTest.lookup(X509FilesystemParserTest.java:39)
-at org.opensaml.spring.credential.X509FilesystemParserTest.wrongCert(X509FilesystemParserTest.java:57)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:808)
-at org.testng.TestRunner.run(TestRunner.java:603)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
-at org.testng.SuiteRunner.run(SuiteRunner.java:326)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
-at org.testng.TestNG.runSuites(TestNG.java:1092)
-at org.testng.TestNG.run(TestNG.java:1060)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-Caused by: org.opensaml.security.SecurityException: Error during signature verification
-at org.opensaml.security.crypto.SigningUtil.verify(SigningUtil.java:219)
-at org.opensaml.security.crypto.KeySupport.matchKeyPair(KeySupport.java:613)
-at org.opensaml.spring.credential.AbstractX509CredentialFactoryBean.doCreateInstance(AbstractX509CredentialFactoryBean.java:68)
-at org.opensaml.spring.credential.AbstractX509CredentialFactoryBean.doCreateInstance(AbstractX509CredentialFactoryBean.java:1)
-at net.shibboleth.ext.spring.factory.AbstractComponentAwareFactoryBean.createInstance(AbstractComponentAwareFactoryBean.java:49)
-at org.springframework.beans.factory.config.AbstractFactoryBean.afterPropertiesSet(AbstractFactoryBean.java:142)
-at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1802)
-at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1751)
-... 44 more
-Caused by: java.security.SignatureException: Signature length not correct: got 256 but was expecting 128
-at java.base/sun.security.rsa.RSASignature.engineVerify(RSASignature.java:213)
-at java.base/java.security.Signature$Delegate.engineVerify(Signature.java:1435)
-at java.base/java.security.Signature.verify(Signature.java:789)
-at org.opensaml.security.crypto.SigningUtil.verify(SigningUtil.java:216)
-... 51 more
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.springframework.beans.factory.BeanCreationException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- wrongCert -->
-        <test-method is-config="true" signature="tearDownTestContext()[pri:0, instance:org.opensaml.spring.credential.X509FilesystemParserTest@72cde7cc]" started-at="2022-06-08T10:36:16 EDT" name="tearDownTestContext" finished-at="2022-06-08T10:36:16 EDT" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDownTestContext -->
-      </class> <!-- org.opensaml.spring.credential.X509FilesystemParserTest -->
-      <class name="org.opensaml.spring.credential.X509InlineParserTest">
-        <test-method signature="certKeyCrl()[pri:0, instance:org.opensaml.spring.credential.X509InlineParserTest@5fd4f8f5]" started-at="2022-06-08T10:36:16 EDT" name="certKeyCrl" finished-at="2022-06-08T10:36:16 EDT" duration-ms="49" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- certKeyCrl -->
-        <test-method is-config="true" signature="tearDownTestContext()[pri:0, instance:org.opensaml.spring.credential.X509InlineParserTest@5fd4f8f5]" started-at="2022-06-08T10:36:16 EDT" name="tearDownTestContext" finished-at="2022-06-08T10:36:16 EDT" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDownTestContext -->
-        <test-method signature="certOnly()[pri:0, instance:org.opensaml.spring.credential.X509InlineParserTest@5fd4f8f5]" started-at="2022-06-08T10:36:16 EDT" name="certOnly" finished-at="2022-06-08T10:36:16 EDT" duration-ms="27" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- certOnly -->
-        <test-method is-config="true" signature="tearDownTestContext()[pri:0, instance:org.opensaml.spring.credential.X509InlineParserTest@5fd4f8f5]" started-at="2022-06-08T10:36:16 EDT" name="tearDownTestContext" finished-at="2022-06-08T10:36:16 EDT" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDownTestContext -->
-        <test-method signature="wrongCert()[pri:0, instance:org.opensaml.spring.credential.X509InlineParserTest@5fd4f8f5]" started-at="2022-06-08T10:36:16 EDT" name="wrongCert" finished-at="2022-06-08T10:36:16 EDT" duration-ms="31" status="PASS">
-          <exception class="org.springframework.beans.factory.BeanCreationException">
-            <message>
-              <![CDATA[Error creating bean with name 'IdPCredential': Invocation of init method failed; nested exception is org.opensaml.security.SecurityException: Error during signature verification]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'IdPCredential': Invocation of init method failed; nested exception is org.opensaml.security.SecurityException: Error during signature verification
-at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1755)
-at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:604)
-at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:526)
-at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326)
-at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
-at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)
-at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:225)
-at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveNamedBean(DefaultListableBeanFactory.java:1265)
-at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveNamedBean(DefaultListableBeanFactory.java:1226)
-at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveBean(DefaultListableBeanFactory.java:483)
-at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBean(DefaultListableBeanFactory.java:338)
-at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBean(DefaultListableBeanFactory.java:331)
-at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1159)
-at org.opensaml.spring.AbstractSecurityParserTest.getBean(AbstractSecurityParserTest.java:95)
-at org.opensaml.spring.AbstractSecurityParserTest.getBean(AbstractSecurityParserTest.java:68)
-at org.opensaml.spring.credential.X509InlineParserTest.wrongCert(X509InlineParserTest.java:48)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:808)
-at org.testng.TestRunner.run(TestRunner.java:603)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
-at org.testng.SuiteRunner.run(SuiteRunner.java:326)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
-at org.testng.TestNG.runSuites(TestNG.java:1092)
-at org.testng.TestNG.run(TestNG.java:1060)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-Caused by: org.opensaml.security.SecurityException: Error during signature verification
-at org.opensaml.security.crypto.SigningUtil.verify(SigningUtil.java:219)
-at org.opensaml.security.crypto.KeySupport.matchKeyPair(KeySupport.java:613)
-at org.opensaml.spring.credential.AbstractX509CredentialFactoryBean.doCreateInstance(AbstractX509CredentialFactoryBean.java:68)
-at org.opensaml.spring.credential.AbstractX509CredentialFactoryBean.doCreateInstance(AbstractX509CredentialFactoryBean.java:1)
-at net.shibboleth.ext.spring.factory.AbstractComponentAwareFactoryBean.createInstance(AbstractComponentAwareFactoryBean.java:49)
-at org.springframework.beans.factory.config.AbstractFactoryBean.afterPropertiesSet(AbstractFactoryBean.java:142)
-at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1802)
-at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1751)
-... 43 more
-Caused by: java.security.SignatureException: Signature length not correct: got 256 but was expecting 128
-at java.base/sun.security.rsa.RSASignature.engineVerify(RSASignature.java:213)
-at java.base/java.security.Signature$Delegate.engineVerify(Signature.java:1435)
-at java.base/java.security.Signature.verify(Signature.java:789)
-at org.opensaml.security.crypto.SigningUtil.verify(SigningUtil.java:216)
-... 50 more
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.springframework.beans.factory.BeanCreationException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- wrongCert -->
-        <test-method is-config="true" signature="tearDownTestContext()[pri:0, instance:org.opensaml.spring.credential.X509InlineParserTest@5fd4f8f5]" started-at="2022-06-08T10:36:16 EDT" name="tearDownTestContext" finished-at="2022-06-08T10:36:16 EDT" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDownTestContext -->
-      </class> <!-- org.opensaml.spring.credential.X509InlineParserTest -->
-      <class name="org.opensaml.spring.trust.ChainingTrustEngineTest">
-        <test-method signature="one()[pri:0, instance:org.opensaml.spring.trust.ChainingTrustEngineTest@696da30b]" started-at="2022-06-08T10:36:16 EDT" name="one" finished-at="2022-06-08T10:36:16 EDT" duration-ms="59" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- one -->
-        <test-method is-config="true" signature="tearDownTestContext()[pri:0, instance:org.opensaml.spring.trust.ChainingTrustEngineTest@696da30b]" started-at="2022-06-08T10:36:16 EDT" name="tearDownTestContext" finished-at="2022-06-08T10:36:16 EDT" duration-ms="3" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDownTestContext -->
-        <test-method signature="two()[pri:0, instance:org.opensaml.spring.trust.ChainingTrustEngineTest@696da30b]" started-at="2022-06-08T10:36:16 EDT" name="two" finished-at="2022-06-08T10:36:16 EDT" duration-ms="38" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- two -->
-        <test-method is-config="true" signature="tearDownTestContext()[pri:0, instance:org.opensaml.spring.trust.ChainingTrustEngineTest@696da30b]" started-at="2022-06-08T10:36:16 EDT" name="tearDownTestContext" finished-at="2022-06-08T10:36:16 EDT" duration-ms="6" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDownTestContext -->
-      </class> <!-- org.opensaml.spring.trust.ChainingTrustEngineTest -->
-      <class name="org.opensaml.spring.trust.StaticPKIXX509CredentialParserTest">
-        <test-method signature="certPath()[pri:0, instance:org.opensaml.spring.trust.StaticPKIXX509CredentialParserTest@4e7912d8]" started-at="2022-06-08T10:36:16 EDT" name="certPath" finished-at="2022-06-08T10:36:16 EDT" duration-ms="67" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- certPath -->
-        <test-method is-config="true" signature="tearDownTestContext()[pri:0, instance:org.opensaml.spring.trust.StaticPKIXX509CredentialParserTest@4e7912d8]" started-at="2022-06-08T10:36:16 EDT" name="tearDownTestContext" finished-at="2022-06-08T10:36:16 EDT" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDownTestContext -->
-        <test-method signature="nameCheckDisabled()[pri:0, instance:org.opensaml.spring.trust.StaticPKIXX509CredentialParserTest@4e7912d8]" started-at="2022-06-08T10:36:16 EDT" name="nameCheckDisabled" finished-at="2022-06-08T10:36:16 EDT" duration-ms="36" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- nameCheckDisabled -->
-        <test-method is-config="true" signature="tearDownTestContext()[pri:0, instance:org.opensaml.spring.trust.StaticPKIXX509CredentialParserTest@4e7912d8]" started-at="2022-06-08T10:36:16 EDT" name="tearDownTestContext" finished-at="2022-06-08T10:36:16 EDT" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDownTestContext -->
-      </class> <!-- org.opensaml.spring.trust.StaticPKIXX509CredentialParserTest -->
+    <test started-at="2022-07-01T14:26:55 EDT" name="Default test" finished-at="2022-07-01T14:26:56 EDT" duration-ms="1329">
       <class name="org.opensaml.spring.trust.StaticPKIXFactoryBeanTest">
-        <test-method signature="customPropertiesFailsValidation()[pri:0, instance:org.opensaml.spring.trust.StaticPKIXFactoryBeanTest@53976f5c]" started-at="2022-06-08T10:36:16 EDT" name="customPropertiesFailsValidation" finished-at="2022-06-08T10:36:16 EDT" duration-ms="51" status="PASS">
+        <test-method signature="customPropertiesFailsValidation()[pri:0, instance:org.opensaml.spring.trust.StaticPKIXFactoryBeanTest@3d6f0054]" started-at="2022-07-01T14:26:56 EDT" name="customPropertiesFailsValidation" finished-at="2022-07-01T14:26:56 EDT" duration-ms="90" status="PASS">
           <exception class="org.springframework.beans.factory.BeanCreationException">
             <message>
               <![CDATA[Error creating bean with name 'StaticPKIXX509CredentialTrustEngine' defined in class path resource [org/opensaml/spring/trust/static-pkix-factory-custom-failsValidation.xml]: Invocation of init method failed; nested exception is org.springframework.beans.FatalBeanException: Certificate revocation checking was force enabled, but no static CRLs were supplied and both CRLDP and OCSP processing is disabled]]>
@@ -587,117 +68,59 @@ at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.
           <reporter-output>
           </reporter-output>
         </test-method> <!-- customPropertiesFailsValidation -->
-        <test-method signature="customPropertiesSuccess()[pri:0, instance:org.opensaml.spring.trust.StaticPKIXFactoryBeanTest@53976f5c]" started-at="2022-06-08T10:36:16 EDT" name="customPropertiesSuccess" finished-at="2022-06-08T10:36:16 EDT" duration-ms="25" status="PASS">
+        <test-method signature="customPropertiesSuccess()[pri:0, instance:org.opensaml.spring.trust.StaticPKIXFactoryBeanTest@3d6f0054]" started-at="2022-07-01T14:26:56 EDT" name="customPropertiesSuccess" finished-at="2022-07-01T14:26:56 EDT" duration-ms="50" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- customPropertiesSuccess -->
-        <test-method signature="defaults()[pri:0, instance:org.opensaml.spring.trust.StaticPKIXFactoryBeanTest@53976f5c]" started-at="2022-06-08T10:36:16 EDT" name="defaults" finished-at="2022-06-08T10:36:16 EDT" duration-ms="15" status="PASS">
+        <test-method signature="defaults()[pri:0, instance:org.opensaml.spring.trust.StaticPKIXFactoryBeanTest@3d6f0054]" started-at="2022-07-01T14:26:56 EDT" name="defaults" finished-at="2022-07-01T14:26:56 EDT" duration-ms="36" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- defaults -->
       </class> <!-- org.opensaml.spring.trust.StaticPKIXFactoryBeanTest -->
-      <class name="org.opensaml.spring.trust.SignatureChainingParserTest">
-        <test-method signature="simple()[pri:0, instance:org.opensaml.spring.trust.SignatureChainingParserTest@2bfc268b]" started-at="2022-06-08T10:36:16 EDT" name="simple" finished-at="2022-06-08T10:36:16 EDT" duration-ms="36" status="PASS">
+      <class name="org.opensaml.spring.trust.StaticExplicitKeyFactoryBeanTest">
+        <test-method is-config="true" signature="setupDirs()[pri:0, instance:org.opensaml.spring.trust.StaticExplicitKeyFactoryBeanTest@57d7f8ca]" started-at="2022-07-01T14:26:55 EDT" name="setupDirs" finished-at="2022-07-01T14:26:55 EDT" duration-ms="17" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- simple -->
-        <test-method is-config="true" signature="tearDownTestContext()[pri:0, instance:org.opensaml.spring.trust.SignatureChainingParserTest@2bfc268b]" started-at="2022-06-08T10:36:16 EDT" name="tearDownTestContext" finished-at="2022-06-08T10:36:16 EDT" duration-ms="1" status="PASS">
+        </test-method> <!-- setupDirs -->
+        <test-method signature="mixed()[pri:0, instance:org.opensaml.spring.trust.StaticExplicitKeyFactoryBeanTest@57d7f8ca]" started-at="2022-07-01T14:26:55 EDT" name="mixed" finished-at="2022-07-01T14:26:56 EDT" duration-ms="702" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mixed -->
+        <test-method is-config="true" signature="tearDownTestContext()[pri:0, instance:org.opensaml.spring.trust.StaticExplicitKeyFactoryBeanTest@57d7f8ca]" started-at="2022-07-01T14:26:56 EDT" name="tearDownTestContext" finished-at="2022-07-01T14:26:56 EDT" duration-ms="3" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownTestContext -->
-      </class> <!-- org.opensaml.spring.trust.SignatureChainingParserTest -->
+        <test-method signature="multipleCert()[pri:0, instance:org.opensaml.spring.trust.StaticExplicitKeyFactoryBeanTest@57d7f8ca]" started-at="2022-07-01T14:26:56 EDT" name="multipleCert" finished-at="2022-07-01T14:26:56 EDT" duration-ms="91" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- multipleCert -->
+        <test-method is-config="true" signature="tearDownTestContext()[pri:0, instance:org.opensaml.spring.trust.StaticExplicitKeyFactoryBeanTest@57d7f8ca]" started-at="2022-07-01T14:26:56 EDT" name="tearDownTestContext" finished-at="2022-07-01T14:26:56 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownTestContext -->
+        <test-method signature="singleCert()[pri:0, instance:org.opensaml.spring.trust.StaticExplicitKeyFactoryBeanTest@57d7f8ca]" started-at="2022-07-01T14:26:56 EDT" name="singleCert" finished-at="2022-07-01T14:26:56 EDT" duration-ms="72" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- singleCert -->
+        <test-method is-config="true" signature="tearDownTestContext()[pri:0, instance:org.opensaml.spring.trust.StaticExplicitKeyFactoryBeanTest@57d7f8ca]" started-at="2022-07-01T14:26:56 EDT" name="tearDownTestContext" finished-at="2022-07-01T14:26:56 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownTestContext -->
+        <test-method signature="singleKey()[pri:0, instance:org.opensaml.spring.trust.StaticExplicitKeyFactoryBeanTest@57d7f8ca]" started-at="2022-07-01T14:26:56 EDT" name="singleKey" finished-at="2022-07-01T14:26:56 EDT" duration-ms="59" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- singleKey -->
+        <test-method is-config="true" signature="tearDownTestContext()[pri:0, instance:org.opensaml.spring.trust.StaticExplicitKeyFactoryBeanTest@57d7f8ca]" started-at="2022-07-01T14:26:56 EDT" name="tearDownTestContext" finished-at="2022-07-01T14:26:56 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownTestContext -->
+      </class> <!-- org.opensaml.spring.trust.StaticExplicitKeyFactoryBeanTest -->
       <class name="org.opensaml.spring.credential.BasicX509CredentialFactoryBeanTest">
-        <test-method signature="bean()[pri:0, instance:org.opensaml.spring.credential.BasicX509CredentialFactoryBeanTest@29e495ff]" started-at="2022-06-08T10:36:16 EDT" name="bean" finished-at="2022-06-08T10:36:16 EDT" duration-ms="73" status="PASS">
+        <test-method signature="bean()[pri:0, instance:org.opensaml.spring.credential.BasicX509CredentialFactoryBeanTest@505fc5a4]" started-at="2022-07-01T14:26:56 EDT" name="bean" finished-at="2022-07-01T14:26:56 EDT" duration-ms="152" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- bean -->
       </class> <!-- org.opensaml.spring.credential.BasicX509CredentialFactoryBeanTest -->
-      <class name="org.opensaml.spring.credential.BasicInlineParserTest">
-        <test-method signature="publicOnly()[pri:0, instance:org.opensaml.spring.credential.BasicInlineParserTest@2f8dad04]" started-at="2022-06-08T10:36:16 EDT" name="publicOnly" finished-at="2022-06-08T10:36:16 EDT" duration-ms="21" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- publicOnly -->
-        <test-method is-config="true" signature="tearDownTestContext()[pri:0, instance:org.opensaml.spring.credential.BasicInlineParserTest@2f8dad04]" started-at="2022-06-08T10:36:16 EDT" name="tearDownTestContext" finished-at="2022-06-08T10:36:16 EDT" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDownTestContext -->
-        <test-method signature="publicPrivate()[pri:0, instance:org.opensaml.spring.credential.BasicInlineParserTest@2f8dad04]" started-at="2022-06-08T10:36:16 EDT" name="publicPrivate" finished-at="2022-06-08T10:36:16 EDT" duration-ms="35" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- publicPrivate -->
-        <test-method signature="secretBase64()[pri:0, instance:org.opensaml.spring.credential.BasicInlineParserTest@2f8dad04]" started-at="2022-06-08T10:36:16 EDT" name="secretBase64" finished-at="2022-06-08T10:36:16 EDT" duration-ms="17" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- secretBase64 -->
-        <test-method is-config="true" signature="tearDownTestContext()[pri:0, instance:org.opensaml.spring.credential.BasicInlineParserTest@2f8dad04]" started-at="2022-06-08T10:36:16 EDT" name="tearDownTestContext" finished-at="2022-06-08T10:36:16 EDT" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDownTestContext -->
-        <test-method is-config="true" signature="tearDownTestContext()[pri:0, instance:org.opensaml.spring.credential.BasicInlineParserTest@2f8dad04]" started-at="2022-06-08T10:36:16 EDT" name="tearDownTestContext" finished-at="2022-06-08T10:36:16 EDT" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDownTestContext -->
-        <test-method signature="secretHex()[pri:0, instance:org.opensaml.spring.credential.BasicInlineParserTest@2f8dad04]" started-at="2022-06-08T10:36:16 EDT" name="secretHex" finished-at="2022-06-08T10:36:16 EDT" duration-ms="15" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- secretHex -->
-        <test-method is-config="true" signature="tearDownTestContext()[pri:0, instance:org.opensaml.spring.credential.BasicInlineParserTest@2f8dad04]" started-at="2022-06-08T10:36:16 EDT" name="tearDownTestContext" finished-at="2022-06-08T10:36:16 EDT" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDownTestContext -->
-      </class> <!-- org.opensaml.spring.credential.BasicInlineParserTest -->
-      <class name="org.opensaml.spring.trust.PKIXInlineParserTest">
-        <test-method signature="complex()[pri:0, instance:org.opensaml.spring.trust.PKIXInlineParserTest@41e1e210]" started-at="2022-06-08T10:36:16 EDT" name="complex" finished-at="2022-06-08T10:36:16 EDT" duration-ms="21" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- complex -->
-        <test-method is-config="true" signature="tearDownTestContext()[pri:0, instance:org.opensaml.spring.trust.PKIXInlineParserTest@41e1e210]" started-at="2022-06-08T10:36:16 EDT" name="tearDownTestContext" finished-at="2022-06-08T10:36:16 EDT" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDownTestContext -->
-        <test-method signature="simple()[pri:0, instance:org.opensaml.spring.trust.PKIXInlineParserTest@41e1e210]" started-at="2022-06-08T10:36:16 EDT" name="simple" finished-at="2022-06-08T10:36:16 EDT" duration-ms="21" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- simple -->
-        <test-method is-config="true" signature="tearDownTestContext()[pri:0, instance:org.opensaml.spring.trust.PKIXInlineParserTest@41e1e210]" started-at="2022-06-08T10:36:16 EDT" name="tearDownTestContext" finished-at="2022-06-08T10:36:16 EDT" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDownTestContext -->
-      </class> <!-- org.opensaml.spring.trust.PKIXInlineParserTest -->
-      <class name="org.opensaml.spring.trust.StaticPKIXSignatureParserTest">
-        <test-method signature="certPath()[pri:0, instance:org.opensaml.spring.trust.StaticPKIXSignatureParserTest@4944252c]" started-at="2022-06-08T10:36:16 EDT" name="certPath" finished-at="2022-06-08T10:36:16 EDT" duration-ms="20" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- certPath -->
-        <test-method signature="nameCheckDisabled()[pri:0, instance:org.opensaml.spring.trust.StaticPKIXSignatureParserTest@4944252c]" started-at="2022-06-08T10:36:16 EDT" name="nameCheckDisabled" finished-at="2022-06-08T10:36:16 EDT" duration-ms="22" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- nameCheckDisabled -->
-        <test-method is-config="true" signature="tearDownTestContext()[pri:0, instance:org.opensaml.spring.trust.StaticPKIXSignatureParserTest@4944252c]" started-at="2022-06-08T10:36:16 EDT" name="tearDownTestContext" finished-at="2022-06-08T10:36:16 EDT" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDownTestContext -->
-        <test-method is-config="true" signature="tearDownTestContext()[pri:0, instance:org.opensaml.spring.trust.StaticPKIXSignatureParserTest@4944252c]" started-at="2022-06-08T10:36:16 EDT" name="tearDownTestContext" finished-at="2022-06-08T10:36:16 EDT" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDownTestContext -->
-        <test-method signature="simple()[pri:0, instance:org.opensaml.spring.trust.StaticPKIXSignatureParserTest@4944252c]" started-at="2022-06-08T10:36:16 EDT" name="simple" finished-at="2022-06-08T10:36:17 EDT" duration-ms="20" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- simple -->
-        <test-method is-config="true" signature="tearDownTestContext()[pri:0, instance:org.opensaml.spring.trust.StaticPKIXSignatureParserTest@4944252c]" started-at="2022-06-08T10:36:17 EDT" name="tearDownTestContext" finished-at="2022-06-08T10:36:17 EDT" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDownTestContext -->
-        <test-method signature="values()[pri:0, instance:org.opensaml.spring.trust.StaticPKIXSignatureParserTest@4944252c]" started-at="2022-06-08T10:36:17 EDT" name="values" finished-at="2022-06-08T10:36:17 EDT" duration-ms="44" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- values -->
-        <test-method is-config="true" signature="tearDownTestContext()[pri:0, instance:org.opensaml.spring.trust.StaticPKIXSignatureParserTest@4944252c]" started-at="2022-06-08T10:36:17 EDT" name="tearDownTestContext" finished-at="2022-06-08T10:36:17 EDT" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDownTestContext -->
-      </class> <!-- org.opensaml.spring.trust.StaticPKIXSignatureParserTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

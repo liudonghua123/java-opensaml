@@ -21,7 +21,6 @@ import java.io.IOException;
 import java.time.Instant;
 import java.util.Iterator;
 
-import org.opensaml.spring.AbstractSecurityParserTest;
 import net.shibboleth.utilities.java.support.resolver.ResolverException;
 
 import org.opensaml.security.credential.Credential;
@@ -36,7 +35,7 @@ import org.testng.annotations.Test;
  * Test for StaticExplicitKey factory bean.
  */
 @SuppressWarnings("javadoc")
-public class StaticExplicitKeyFactoryBeanTest extends AbstractSecurityParserTest {
+public class StaticExplicitKeyFactoryBeanTest extends AbstractSecurityTest {
  
     static private String TESTPATH = "trust/staticExplicitNative.xml";
     

@@ -3,13 +3,16 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="org.opensaml.spring.trust.PKIXFilesystemParserTest">
+      <class name="org.opensaml.spring.trust.StaticExplicitKeyFactoryBeanTest">
         <methods>
+          <include name="multipleCert"/>
           <include name="setupDirs"/>
+          <include name="singleCert"/>
+          <include name="mixed"/>
+          <include name="singleKey"/>
           <include name="tearDownTestContext"/>
-          <include name="complex"/>
         </methods>
-      </class> <!-- org.opensaml.spring.trust.PKIXFilesystemParserTest -->
+      </class> <!-- org.opensaml.spring.trust.StaticExplicitKeyFactoryBeanTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
